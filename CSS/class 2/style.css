@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'saad';
+    src: url('./MomoSignature-Regular.ttf');
+}
+
+
+/* * {
+    color: aqua;
+    background-color: black;
+} */
+
+/* .abc{
+    background-color: black;
+    color: white;
+} */
+
+
+/* ul > li {
+    color: aqua;
+} */
+
+p {
+    font-weight: 1000;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-align: justify;
+    text-indent: 100px;
+    /* line-height: 100px; */
+    /* letter-spacing: 20px; */
+}
+
+h2, h1 {
+    text-shadow:  -10px -10px 10px blue;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-size: 10em; */
+    font-family: 'saad';
+
+}
+
+
+
+
+
+#a1 {
+    /* background-color: rgba(150, 100, 200, 0.3); */
+    /* background-color: #CC27F5; */
+    /* opacity: 1; */
+    /* color: rgb(255, 85, 0); */
+}
