@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: xx-large;
+    position: sticky;
+    top: 0;
+    align-items: center;
+}
+
+
+
+body {
+    background-color: gray;
+}
+
+#abc {
+    width: 100px;
+    height: 50px;
+    padding-top: 10px;
+    object-fit: contain;
+}
+
+.main {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+}
+
+.one, .two, .three {
+    border: 3px solid black;
+    width: 25%;
+    padding: 5px;
+}
+
+div > img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 480px) {
+ 
+    
+.nav {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: black; */
+    color: white;
+    font-size: xx-large;
+    padding: 13px;
+    position: sticky;
+    top: 0;
+    flex-direction: column;
+    text-align: center;
+}
+
+ 
+    .one, .two, .three {
+    border: 3px solid black;
+    width: 80%;
+    padding: 5px;
+    text-align: center;
+}
+}
+
+
+@media screen and (min-width: 481px) {
+ .one, .two, .three {
+    border: 3px solid black;
+    width: 40%;
+    padding: 5px;
+    text-align: center;
+}
+}
+
+@media screen and (min-width: 800px) {
+ .one, .two, .three {
+    border: 3px solid black;
+    width: 20%;
+    padding: 5px;
+    text-align: center;
+}
+}

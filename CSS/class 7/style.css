@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    height: 80px;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.main {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    /* justify-content: space-around; */
+}
+
+
+
+.card {
+    font-size: x-large;
+    border: 5px groove black;
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.card > img {
+    width: 100%;
+}
+
+
+

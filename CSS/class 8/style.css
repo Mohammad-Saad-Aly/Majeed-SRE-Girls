@@ -1,0 +1,75 @@
+/* body {
+    background-image: url('https://battingwithbimal.com/wp-content/uploads/2020/09/307620.jpg');
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
+} */
+
+/* * {
+    margin: 0;
+    padding: 0;
+    font-size: large;
+}
+
+.main {
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: black;
+    color: white;
+    width: 40%;
+    text-align: center;
+    padding: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+#pass {
+    background-image: url("https://png.pngtree.com/png-vector/20190215/ourmid/pngtree-vector-lock-icon-png-image_515444.jpg");
+    background-size: 20px;
+    padding-left: 19px;
+    background-position: left;
+    background-repeat: no-repeat;
+} */
+
+
+body {
+    background-color: bisque;
+}
+
+.white {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.black {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+
+img {
+
+    position: relative;
+    left: 208px;
+    top: -104px;
+    z-index: 1;
+
+
+    /* position: absolute; */
+    /* bottom: 10px; */
+    /* right: 10px; */
+}
+

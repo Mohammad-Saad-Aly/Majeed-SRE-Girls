@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.one {
+    background-color: yellow;
+}
+
+.two {
+    background-color: pink;
+    order: 2;
+}
+
+.three {
+    background-color: blue;
+    order:1
+}
+
+.four {
+    background-color: green;
+}
+
+.five {
+    order: -1;
+    background-color: red;
+}
+
+.six {
+    background-color: brown;
+}
+
+.main {
+    background-color: aqua;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+
+    /* flex-direction: column-reverse; */
+    /* justify-content: space-between; */
+}

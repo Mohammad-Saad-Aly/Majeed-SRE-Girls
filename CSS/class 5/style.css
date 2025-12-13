@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: larger;
+}
+
+ul {
+    padding-top: 10px;
+}
+
+ul > li {
+    font-size: xx-large;
+    display: inline-block;
+    width: 190px;
+    text-align: center;
+}
+
+p {
+    margin: 20px;
+    text-align: justify;
+}
+
