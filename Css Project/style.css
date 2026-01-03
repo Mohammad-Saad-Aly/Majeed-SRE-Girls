@@ -1,0 +1,133 @@
+.navbar {
+    background-color: rgb(53, 52, 52);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: x-large;
+}
+
+.n2-child {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    flex-direction: row;
+}
+
+
+.irfan {
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.btn {
+    background-color: orange;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+.fuzail {
+    width: 30%;
+}
+
+.korean {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.child>img {
+    width: 100%;
+}
+
+.child {
+    width: 25%;
+}
+
+.a-img>img {
+    width: 100%;
+}
+
+.footer {
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+}
+
+.f-child {
+    width: 25%;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+    .navbar {
+        background-color: rgb(53, 52, 52);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        font-size: x-large;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .n2-child {
+        display: flex;
+        width: 40%;
+        flex-direction: column;
+    }
+
+
+    .irfan {
+        display: flex;
+        background-color: whitesmoke;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+
+    .fuzail {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .korean {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .child {
+        margin-bottom: 20px;
+        width: 90%;
+    }
+
+    .footer {
+        padding: 20px;
+        margin-top: 20px;
+        background-color: aqua;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .f-child {
+        width: 90%;
+    }
+
+}
